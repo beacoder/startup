@@ -2,7 +2,7 @@
 
 # 开机启动程序
 # Command Line
-/bin/bash &
+# /bin/bash &
 
 # Goagent
 python /home/chm/Goagent/proxy.py &
@@ -14,4 +14,7 @@ http_proxy=http://127.0.0.1:8087 emacs &
 /usr/lib/chromium-browser/chromium-browser www.csdn.net https://plus.google.com planet.emacsen.org blog.binchen.org http://www.youtube.com &
 
 # IRC - used to discuss tech
-pidgin &
+# pidgin &
+
+# conky - system monitor
+sleep 10 && conky -c /home/chm/.conkyrc &

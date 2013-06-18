@@ -17,4 +17,5 @@ http_proxy=http://127.0.0.1:8087 emacs &
 # pidgin &
 
 # conky - system monitor
-sleep 10 && conky -c /home/chm/.conkyrc &
+sleep 10 &&
+conky -d -c /home/chm/.conkyrc &

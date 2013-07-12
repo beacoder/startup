@@ -1,4 +1,0 @@
-startup
-=======
-
-some startup stuff

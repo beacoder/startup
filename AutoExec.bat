@@ -1,6 +1,7 @@
 #!/bin/sh
 
-# 开机启动程序
+# start up program
+
 # Command Line
 # /bin/bash &
 

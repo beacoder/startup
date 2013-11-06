@@ -20,3 +20,6 @@ http_proxy=http://127.0.0.1:8087 emacs &
 # conky - system monitor
 sleep 10 &&
 conky -d -c /home/chm/.conkyrc &
+
+# swap the Caps_Lock and Control Key
+xmodmap ~/.xmodmap

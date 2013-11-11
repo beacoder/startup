@@ -24,7 +24,7 @@ conky -d -c /home/chm/.conkyrc &
 # swap Caps_Lock and Control_L
 xmodmap ~/.xmodmap
 
-# show dejavu font in xlsfonts, so that emacs can use it
+# enable dejavu font in xlsfonts, so that emacs can use it
 sudo mkfontscale /usr/share/fonts/truetype/ttf-dejavu
 sudo mkfontdir /usr/share/fonts/truetype/ttf-dejavu
 xset fp+ "/usr/share/fonts/truetype/ttf-dejavu"

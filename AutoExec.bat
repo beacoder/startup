@@ -12,7 +12,7 @@ python /home/chm/Goagent/proxy.py &
 http_proxy=http://127.0.0.1:8087 emacs &
 
 # Chrome
-/usr/lib/chromium-browser/chromium-browser www.csdn.net https://plus.google.com planet.emacsen.org blog.binchen.org http://www.youtube.com &
+/usr/lib/chromium-browser/chromium-browser www.csdn.net https://plus.google.com planet.emacsen.org blog.binchen.org http://www.youtube.com http://lifehacker.com &
 
 # IRC - used to discuss tech
 # pidgin &

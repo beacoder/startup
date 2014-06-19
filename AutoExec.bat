@@ -25,7 +25,7 @@ conky -d -c /home/chm/.conkyrc &
 xmodmap ~/.xmodmap
 
 # enable dejavu font in xlsfonts, so that emacs can use it
-sudo mkfontscale /usr/share/fonts/truetype/ttf-dejavu
-sudo mkfontdir /usr/share/fonts/truetype/ttf-dejavu
-xset fp+ "/usr/share/fonts/truetype/ttf-dejavu"
+sudo mkfontscale /usr/share/fonts/dejavu-lgc
+sudo mkfontdir /usr/share/fonts/dejavu-lgc
+xset fp+ "/usr/share/fonts/dejavu-lgc"
 

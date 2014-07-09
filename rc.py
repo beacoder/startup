@@ -2,7 +2,7 @@
 
 # install percol from https://github.com/mooz/percol
 # make sure the python verion >= 2.7.8
-# placed this file in directory ~/.percol.d/
+# place this file in directory ~/.percol.d/
 
 # X / _ / X
 # percol.view.PROMPT  = ur"<bold><yellow>X / _ / X</yellow></bold> %q"

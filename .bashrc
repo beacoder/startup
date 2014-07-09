@@ -1,7 +1,7 @@
 # .bashrc
 
 # User specific aliases and functions
-PATH=/vobs/devtools/bin:$PATH:$HOME/bin:/usr/atria/bin:/bstd_tools/scm/bm:/opt/rational/clearcase/rhat_x86/bin:~/bin:.:/bstd_tools/contrib/lbin:/opt/slickedit/bin/:.
+PATH=/usr/local/python2.7.8/bin/:$HOME/percol/bin/:/vobs/devtools/bin:$PATH:$HOME/bin:/usr/atria/bin:/bstd_tools/scm/bm:/opt/rational/clearcase/rhat_x86/bin:~/bin:.:/bstd_tools/contrib/lbin:/opt/slickedit/bin/:.
 
 alias rm='rm -i'
 alias mv='mv -i'

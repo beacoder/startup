@@ -5,6 +5,10 @@ PATH=/usr/local/python2.7.8/bin/:$HOME/percol/bin/:/vobs/devtools/bin:$PATH:$HOM
 
 # tell bash to understand emacs commands
 set -o emacs
+
+# don't use proxy
+unset HTTP_PROXY http_proxy
+
 alias rm='rm -i'
 alias mv='mv -i'
 alias ct='cleartool'
@@ -26,7 +30,6 @@ alias ee="cd /opt/hsm/src/execution_engine/"
 alias rs="cd /opt/hsm/src/result_server/"
 alias rr="cd /opt/hsm/src/rr/"
 alias sw="/opt/hp93000/soc_common/bin/switch_version"
-alias sj="ssh atslxws165"
 alias fb="ssh atslxws125"
 alias fw="/opt/hp93000/soc/pws/bin/hpt"
 alias mtp-1="ssh atslxws39"
@@ -38,6 +41,7 @@ alias rdesk='rdesktop -g 1600x1175 10.150.48.135&'
 #umask 002
 #export HP83000_ROOT=/opt/93000/src
 #export CCASE_MAKE_COMPAT=gnu
+
 export MOZILLA_FIVE_HOME=""
 export HISTSIZE=100000
 export HISTFILESIZE=100000
@@ -61,10 +65,10 @@ alias so="/opt/hp93000/soc/prod_env/bin/HPSmarTest -o&"
 alias soon="/opt/hp93000/soc/prod_env/bin/HPSmarTest &"
 alias ks="/opt/93000/src/prod_env/lbin/kill_smarTest"
 alias ko="/opt/hp93000/soc/prod_env/lbin/kill_smarTest"
-alias lsview='cleartool lsview|grep crteng2'
 
 #set 93k dev environment
 alias set_enviroment=/vobs/zenith/workspace/CMF-tools/set_environment.ksh
+
 #set MTP environment
 alias hsmroot='export HSM_ROOT=/opt/hsm/src ENV_ADMIN_VOB=/vobs/admin/hsm/hsm_admin'
 
@@ -95,5 +99,5 @@ setmodel()
 export NONSHIPMENT_ROOT=/opt/93000/src
 export HP83000_ROOT=/opt/hp93000/soc
 
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin 

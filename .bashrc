@@ -6,9 +6,6 @@ PATH=/usr/local/python2.7.8/bin/:$HOME/percol/bin/:/vobs/devtools/bin:$PATH:$HOM
 # tell bash to understand emacs commands
 set -o emacs
 
-# don't use proxy
-unset HTTP_PROXY http_proxy
-
 alias rm='rm -i'
 alias mv='mv -i'
 alias ct='cleartool'
@@ -52,6 +49,9 @@ export HISTFILESIZE=100000
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
+
+# don't use proxy
+unset HTTP_PROXY http_proxy
 
 alias rm='rm -i'
 alias mv='mv -i'

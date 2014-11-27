@@ -8,6 +8,10 @@ set -o emacs
 
 alias rm='rm -i'
 alias mv='mv -i'
+alias ll='ls -l'
+alias la='ls -l -a'
+alias em='emacs&'
+alias cr='clear'
 
 # clearcase
 alias ct='cleartool'
@@ -23,9 +27,6 @@ alias make='clearmake'
 alias cmakedebug='clearmake CCOPTS="-DDEBUG -O0" debug'
 alias DRLtoASCII="/opt/hp93000/soc/segments/formatter/bin/DRLtoASCII -f /opt/hp93000/soc/segments/formatter/EventFormatter/libfilter.so"
 alias DRLDump="/opt/hp93000/soc/.service/bin/DRLDump -print -sync -system -trunc"
-
-alias cr="clear"
-alias em="emacs&"
 
 alias hsm="cd /opt/hsm/src/"
 alias ee="cd /opt/hsm/src/execution_engine/"

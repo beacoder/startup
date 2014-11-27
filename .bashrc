@@ -8,20 +8,25 @@ set -o emacs
 
 alias rm='rm -i'
 alias mv='mv -i'
+
+# clearcase
 alias ct='cleartool'
 alias co='cleartool co -nc'
 alias unco='cleartool unco'
 alias ci='cleartool ci -nc'
 alias lsco='ct lsco -short -avobs -cview'
 alias lsvt='ct lsvtree -g'
+
 alias seelog='tailf /var/opt/hp93000/soc/MCDLog'
 alias diffpre='cleartool diff -g -pre'
 alias make='clearmake'
 alias cmakedebug='clearmake CCOPTS="-DDEBUG -O0" debug'
 alias DRLtoASCII="/opt/hp93000/soc/segments/formatter/bin/DRLtoASCII -f /opt/hp93000/soc/segments/formatter/EventFormatter/libfilter.so"
 alias DRLDump="/opt/hp93000/soc/.service/bin/DRLDump -print -sync -system -trunc"
+
 alias cr="clear"
 alias em="emacs&"
+
 alias hsm="cd /opt/hsm/src/"
 alias ee="cd /opt/hsm/src/execution_engine/"
 alias rs="cd /opt/hsm/src/result_server/"
@@ -53,10 +58,6 @@ fi
 # don't use proxy
 unset HTTP_PROXY http_proxy
 
-alias rm='rm -i'
-alias mv='mv -i'
-alias ct='cleartool'
-alias cmake='clearmake'
 alias cmakedebug='clearmake CCOPTS="-DDEBUG -O0" debug'
 alias dv="/usr/contrib/bin/vslick &"
 alias ss="/opt/93000/src/prod_env/bin/HPSmarTest -o&"

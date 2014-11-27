@@ -13,6 +13,20 @@ alias la='ls -la'
 alias em='emacs&'
 alias cr='clear'
 
+# invoke ediff just like vimdiff
+alias ed='ediff'
+function ediff() {
+    if [ "X${2}" = "X" ]; then
+        echo "USAGE: ediff <FILE 1> <FILE 2>"
+    else
+        # The --eval flag takes lisp code and evaluates it with EMACS
+        emacs -q -nw --eval "(progn 
+                               (setq ediff-split-window-function 'split-window-horizontally)
+                               (setq ediff-diff-options \"-w\")
+                               (ediff-files \"$1\" \"$2\"))"
+    fi
+}
+
 # clearcase
 alias ct='cleartool'
 alias co='cleartool co -nc'

@@ -9,7 +9,7 @@ set -o emacs
 alias rm='rm -i'
 alias mv='mv -i'
 alias ll='ls -l'
-alias la='ls -l -a'
+alias la='ls -la'
 alias em='emacs&'
 alias cr='clear'
 

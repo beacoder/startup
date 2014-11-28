@@ -10,8 +10,11 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias ll='ls -l'
 alias la='ls -la'
-alias em='emacs&'
+alias em='emacs'
 alias cr='clear'
+
+# lightweight emacs without configuration
+alias emq='emacs -q -nw'
 
 # invoke ediff just like vimdiff
 alias ed='ediff'
@@ -22,10 +25,10 @@ ediff () {
         echo "USAGE: ediff <FILE 1> <FILE 2>"
     else
         # The --eval flag takes lisp code and evaluates it with EMACS
-        emacs -q -nw --eval "(progn 
-                               (setq ediff-split-window-function 'split-window-horizontally)
-                               (setq ediff-diff-options \"-w\")
-                               (ediff-files \"$1\" \"$2\"))"
+        emq --eval "(progn 
+                      (setq ediff-split-window-function 'split-window-horizontally)
+                      (setq ediff-diff-options \"-w\")
+                      (ediff-files \"$1\" \"$2\"))"
     fi
 }
 

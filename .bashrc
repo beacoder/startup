@@ -12,10 +12,12 @@ alias ll='ls -l'
 alias la='ls -la'
 alias em='emacs&'
 alias cr='clear'
-alias ed='ediff'
 
 # invoke ediff just like vimdiff
-function ediff() {
+alias ed='ediff'
+
+# 'ediff () {}' is more portable than 'function ediff() {}'
+ediff () {
     if [ "X${2}" = "X" ]; then
         echo "USAGE: ediff <FILE 1> <FILE 2>"
     else

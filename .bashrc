@@ -12,6 +12,7 @@ alias ll='ls -l'
 alias la='ls -la'
 alias em='emacs'
 alias cr='clear'
+alias jb='jobs'
 
 # lightweight emacs without configuration
 alias emq='emacs -q -nw'

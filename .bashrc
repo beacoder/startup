@@ -43,6 +43,7 @@ ediff () {
 export MOZILLA_FIVE_HOME=""
 export HISTSIZE=100000
 export HISTFILESIZE=100000
+export PS1='$HOSTNAME $PWD !$ '
 
 #/usr/X11R6/bin/xset fp+ ~/fonts/
 

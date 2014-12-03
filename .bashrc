@@ -1,4 +1,4 @@
-# .bashrc
+# bash configuration file
 
 # User specific aliases and functions
 PATH=/usr/local/python2.7.8/bin/:$HOME/percol/bin/:$PATH:$HOME/bin:.
@@ -42,17 +42,12 @@ ediff () {
 
 #export PATH
 #unset USERNAME
-
 #umask 002
-#export HP83000_ROOT=/opt/93000/src
-#export CCASE_MAKE_COMPAT=gnu
 
 export MOZILLA_FIVE_HOME=""
 export HISTSIZE=100000
 export HISTFILESIZE=100000
 export PS1='$HOSTNAME $PWD !$ '
-
-#/usr/X11R6/bin/xset fp+ ~/fonts/
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then

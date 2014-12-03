@@ -14,9 +14,6 @@ alias em='emacs'
 alias cr='clear'
 alias jb='jobs'
 
-# using screen
-alias sc='screen'
-
 # lightweight emacs without configuration
 alias emq='emacs -q -nw'
 

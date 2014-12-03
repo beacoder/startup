@@ -17,10 +17,11 @@ alias jb='jobs'
 # lightweight emacs without configuration
 emq () {
     # keep the ability to execute configuration file
-    emacs -q -nw --eval "(global-set-key 
-                           (kbd \"C-x /\") 
-                           (lambda () (interactive) (load-file \"~/.emacs.d/init.el\")
-                             (desktop-read)))" "$@";
+    emacs -q -nw --eval "(global-set-key (kbd \"C-x /\") 
+                           (lambda () 
+                             (interactive) 
+                             (load-file \"~/.emacs.d/init.el\")
+                             (desktop-read)))" "$@"
 }
 
 # invoke ediff just like vimdiff
@@ -35,7 +36,7 @@ ediff () {
         emq --eval "(progn 
                       (setq ediff-split-window-function 'split-window-horizontally)                             
                       (setq ediff-diff-options \"-w\")
-                      (ediff-files \"$1\" \"$2\"))";
+                      (ediff-files \"$1\" \"$2\"))"
     fi
 }
 

@@ -1,4 +1,4 @@
 startup
 =======
 
-some startup stuff
+configuration files for system startup.

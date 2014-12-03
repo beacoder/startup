@@ -15,7 +15,10 @@ alias cr='clear'
 alias jb='jobs'
 
 # lightweight emacs without configuration
-alias emq='emacs -q -nw'
+emq () {
+    # keep the ability to execute configuration file
+    emacs -q -nw --eval "(global-set-key (kdb \"C-x /\") (lambda () (interactive) (load-file \"~/.emacs.d/init.el\")))"
+}
 
 # invoke ediff just like vimdiff
 alias ed='ediff'

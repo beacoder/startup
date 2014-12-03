@@ -29,10 +29,10 @@ ediff () {
         echo "USAGE: ediff <FILE 1> <FILE 2>"
     else
         # The --eval flag takes lisp code and evaluates it with EMACS
-        emq --eval "(progn 
-                      (setq ediff-split-window-function 'split-window-horizontally)
-                      (setq ediff-diff-options \"-w\")
-                      (ediff-files \"$1\" \"$2\"))"
+        emacs -q -nw --eval "(progn 
+                             (global-set-key (kdb \"C-x /\") (lambda () (interactive) (load-file \"~/.emacs.d/init.el\")))                             (setq ediff-split-window-function 'split-window-horizontally)
+                             (setq ediff-diff-options \"-w\")
+                             (ediff-files \"$1\" \"$2\"))"
     fi
 }
 

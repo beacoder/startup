@@ -10,9 +10,11 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias ll='ls -l'
 alias la='ls -la'
-alias em='emacs'
-alias cr='clear'
-alias jb='jobs'
+
+alias e='emq'
+alias E='Emacs'
+alias c='clear'
+alias j='jobs'
 
 # lightweight emacs without configuration
 emq () {

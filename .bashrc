@@ -12,7 +12,7 @@ alias ll='ls -l'
 alias la='ls -la'
 
 alias e='emq'
-alias E='Emacs'
+alias E='emacs'
 alias c='clear'
 alias j='jobs'
 

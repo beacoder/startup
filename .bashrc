@@ -5,6 +5,7 @@ PATH=/usr/local/python2.7.8/bin/:$HOME/percol/bin/:$PATH:$HOME/bin:.
 
 # use light-weight emacs as default editor
 export EDITOR=~/.emq
+export TERM=xterm-color
 
 # load my private configuration
 source ~/.private

@@ -18,7 +18,7 @@ alias mv='mv -i'
 alias ll='ls -l'
 alias la='ls -la'
 
-source ~/.function
+source ~/private/.function
 
 alias e='emq'
 alias E='emacs'

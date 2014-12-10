@@ -7,10 +7,10 @@ export PS1='$HOSTNAME $PWD !$ '
 export TERM=xterm-color
 
 # use light-weight emacs as default editor
-export EDITOR=~/.emq
+export EDITOR=~/private/.emq
 
 # load my private configuration
-source ~/.private
+source ~/private/.private
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then

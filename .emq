@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# lightweight emacs without configuration
+
+# keep the ability to execute configuration file
+emacs -q -nw --eval "(global-set-key (kbd \"C-x /\") 
+                       (lambda () 
+                         (interactive) 
+                         (load-file \"~/.emacs.d/init.el\")
+                         (desktop-read)))" "$@"

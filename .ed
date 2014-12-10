@@ -1,11 +1,5 @@
 #!/bin/bash
 
-if [ "X${2}" = "X" ]; then
-        echo "USAGE: ediff <FILE 1> <FILE 2>"
-    else
-        # The --eval flag takes lisp code and evaluates it with EMACS
-        emq --eval "(progn 
-                      (setq ediff-split-window-function 'split-window-horizontally)                             
-                      (setq ediff-diff-options \"-w\")
-                      (ediff-files \"$1\" \"$2\"))"
-fi
+source ~/.function
+
+ed $@

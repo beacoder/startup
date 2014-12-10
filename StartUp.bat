@@ -9,3 +9,6 @@ start iexplore.exe -new planet.emacsen.org
 
 # start outlook
 start "" outlook
+
+# use AutoHotKey to swap caps and ctrl under windows.
+start "" AutoHotKey AutoHotKey.ahk

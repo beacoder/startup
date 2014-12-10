@@ -17,33 +17,13 @@ alias mv='mv -i'
 alias ll='ls -l'
 alias la='ls -la'
 
+source ~/.function
+
 alias e='emq'
 alias E='emacs'
 alias c='clear'
 alias j='jobs'
 
-# lightweight emacs without configuration
-emq () {
-    # keep the ability to execute configuration file
-    emacs -q -nw --eval "(global-set-key (kbd \"C-x /\") 
-                           (lambda () 
-                             (interactive) 
-                             (load-file \"~/.emacs.d/init.el\")
-                             (desktop-read)))" "$@"
-}
-
-# invoke ediff just like vimdiff
-alias ed='ediff'
-
-# 'ediff () {}' is more portable than 'function ediff() {}'
-ediff () {
-    if [ "X${2}" = "X" ]; then
-        echo "USAGE: ediff <FILE 1> <FILE 2>"
-    else
-        # The --eval flag takes lisp code and evaluates it with EMACS
-        emq --eval "(progn 
-                      (setq ediff-split-window-function 'split-window-horizontally)                             
-                      (setq ediff-diff-options \"-w\")
-                      (ediff-files \"$1\" \"$2\"))"
-    fi
-}
+# using screen
+alias sc='screen'
+alias scr='screen -r'

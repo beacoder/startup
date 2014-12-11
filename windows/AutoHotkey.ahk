@@ -11,12 +11,12 @@
 ;LWin::LAlt
 ;LAlt::LCtrl
 ;LCtrl::LWin
-LCtrl up::Send {LCtrl Up}
-	
+
 ;RAlt::RCtrl
 ;RWin::RAlt
 ;AppsKey::RAlt
 ;RCtrl::AppsKey
 
+LCtrl up::Send {LCtrl Up}
 CapsLock::LCTRL
 *Tab::Send {Blind}{Tab}

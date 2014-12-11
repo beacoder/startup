@@ -17,6 +17,11 @@
 ;AppsKey::RAlt
 ;RCtrl::AppsKey
 
+;right alt is broken when using putty, replace ralt with lalt
+#IfWinActive ahk_class PuTTY
+RAlt::LAlt
+#IfWinActive
+
 LCtrl up::Send {LCtrl Up}
 CapsLock::LCTRL
 *Tab::Send {Blind}{Tab}

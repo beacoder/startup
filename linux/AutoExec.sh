@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Goagent
 python /home/chm/Goagent/proxy.py &
 

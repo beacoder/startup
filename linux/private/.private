@@ -20,10 +20,13 @@ alias la='ls -la'
 
 source ~/private/.function
 
+# emacs
 alias e='emq'
 alias E='emacs'
+
 alias c='clear'
 alias j='jobs'
+alias g='grep --color=auto'
 
 # using screen
 alias sc='screen'

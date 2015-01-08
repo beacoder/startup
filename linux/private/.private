@@ -22,7 +22,7 @@ source ~/private/.function
 
 # vim
 alias v='vim'
-alias =vd='vimdiff'
+alias vd='vimdiff'
 
 # emacs
 alias e='emq'

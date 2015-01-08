@@ -20,6 +20,10 @@ alias la='ll -a'
 
 source ~/private/.function
 
+# vim
+alias v='vim'
+alias =vd='vimdiff'
+
 # emacs
 alias e='emq'
 alias E='emacs'

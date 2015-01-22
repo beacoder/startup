@@ -19,3 +19,6 @@ fi
 
 # don't use proxy
 unset HTTP_PROXY http_proxy
+
+# execute dynamic command
+eval "echo 'Finished bash initializtion !'"

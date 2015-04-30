@@ -15,7 +15,7 @@ set -o emacs
 
 alias rm='rm -i'
 alias mv='mv -i'
-alias ll='ls -hl'
+alias l='ls -hl'
 alias la='ll -a'
 
 source ~/private/.function

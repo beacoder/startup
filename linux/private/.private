@@ -17,6 +17,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias l='ls -hl'
 alias la='ll -a'
+alias le='less'
 
 source ~/private/.function
 

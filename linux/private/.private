@@ -6,7 +6,7 @@
 #unset USERNAME
 #umask 002
 
-export MOZILLA_FIVE_HOME=""
+export HISTFILE=~/.sh_history
 export HISTSIZE=100000
 export HISTFILESIZE=100000
 

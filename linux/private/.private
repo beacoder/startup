@@ -19,7 +19,7 @@ alias l='ls -hl'
 alias la='ll -a'
 alias le='less'
 alias tl='tail'
-alias tlf='tail -f'
+alias tf='tail -f'
 
 source ~/private/.function
 

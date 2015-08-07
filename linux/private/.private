@@ -33,7 +33,7 @@ alias E='emacs'
 
 alias c='clear'
 alias j='jobs'
-alias g='grep --color=auto'
+alias g='grep --color=auto -n'
 
 # using screen
 alias sc='screen'

@@ -16,7 +16,7 @@ set -o emacs
 alias rm='rm -i'
 alias mv='mv -i'
 alias l='ls -hl'
-alias la='ll -a'
+alias la='ls -hla'
 alias le='less'
 alias tl='tail'
 alias tf='tail -f'

@@ -10,9 +10,6 @@ emq () {
                              (desktop-read)))" "$@"
 }
 
-# invoke ediff just like vimdiff
-alias ed='ediff'
-
 # 'ediff () {}' is more portable than 'function ediff() {}'
 ediff () {
     if [ "X${2}" = "X" ]; then

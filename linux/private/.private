@@ -31,6 +31,9 @@ alias vd='vimdiff'
 alias e='emq'
 alias E='emacs'
 
+# invoke ediff just like vimdiff
+alias ed='ediff'
+
 alias c='clear'
 alias j='jobs'
 alias g='grep --color=auto -n'

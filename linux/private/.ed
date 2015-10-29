@@ -2,4 +2,4 @@
 
 source ~/private/.function
 
-ed $@
+ediff $@

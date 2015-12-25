@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source ~/private/.function
+source ~/private/function
 
 emq $@

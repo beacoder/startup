@@ -21,8 +21,6 @@ alias le='less'
 alias tl='tail'
 alias tf='tail -f'
 
-source ~/private/function
-
 # vim
 alias v='vim'
 alias vd='vimdiff'

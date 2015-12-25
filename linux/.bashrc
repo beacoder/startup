@@ -10,7 +10,7 @@ export TERM=xterm-color
 export SBCL_HOME=/path/to/sbcl
 
 # use light-weight emacs as default editor
-export EDITOR=~/private/emq
+export EDITOR=emq
 
 # load my private configuration
 source ~/private/init

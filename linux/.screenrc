@@ -9,6 +9,7 @@
 # C-t     => show current time
 # C-[     => enter copy-mode, you could scroll up and down using PageUp and PageDown
 # C-]     => paste from buffer
+# screen -X -S [session-name] quit => kill a screen session
 
 vbell off
 altscreen on
@@ -48,3 +49,17 @@ screen -t prelsv 8
 #bind o focus
 #bind 1 only
 #bind 0 remove
+
+# F1-F12 to select window
+bindkey "^[[11~" select 1
+bindkey "^[[12~" select 2
+bindkey "^[[13~" select 3
+bindkey "^[[14~" select 4
+bindkey "^[[15~" select 5
+bindkey "^[[17~" select 6
+bindkey "^[[18~" select 7
+bindkey "^[[19~" select 8
+bindkey "^[[20~" select 9
+bindkey "^[[21~" select 10
+bindkey "^[[23~" select 11
+bindkey "^[[24~" select 0

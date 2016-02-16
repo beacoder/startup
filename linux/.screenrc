@@ -1,3 +1,5 @@
+# configuration for gnu screen
+
 vbell off
 altscreen on
 defflow off

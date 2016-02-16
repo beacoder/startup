@@ -1,5 +1,14 @@
 # configuration for gnu screen
 
+# default key-bindings
+# C-d     => dettach the screen
+# C-[0-9] => switch to the nth window
+# C-c     => create a new window
+# C-w     => list how many windows there are
+# C-K     => kill current window
+# C-t     => show current time
+# C-[     => enter copy-mode, you could scroll up and down using PageUp and PageDown
+
 vbell off
 altscreen on
 defflow off

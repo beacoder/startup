@@ -1,0 +1,38 @@
+vbell off
+altscreen on
+defflow off
+
+#
+## Control-^ (usually Control-Shift-6) is traditional and the only key not used by emacs
+escape ^^^^
+#
+## do not trash BackSpace, usually DEL
+bindkey -k kb
+bindkey -d -k kb
+#
+## do not trash Delete, usually ESC [ 3 ~
+bindkey -k kD
+bindkey -d -k kD
+
+startup_message on
+defscrollback 8000
+termcapinfo xterm* ti@:te@
+
+hardstatus alwayslastline
+#hardstatus string "%{= kg}[%{G}%H%{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d%{R} %D%{W} %c:%s%{g}]"
+hardstatus string "%{=b}%{b}%-w%{.BW}%10>%n*%t%{-}%+w%< %=%{kG}%C%A %D, %Y-%m-%d"
+
+screen -t node 0
+screen -t epghome 1
+screen -t reglog 2
+screen -t j20ttcn 3
+screen -t cases 4
+screen -t lsf 5
+screen -t epgsim 6
+screen -t misc 7
+screen -t prelsv 8
+
+#bind 2 split
+#bind o focus
+#bind 1 only
+#bind 0 remove

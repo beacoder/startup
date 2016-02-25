@@ -1,3 +1,9 @@
+; Fix right alt key in putty
+
+#IfWinActive ahk_class PuTTY
+RAlt::LAlt
+#IfWinActive
+
 ; AutoHotkey script to map Caps Lock to Escape when it's pressed on its own, and Ctrl when used in combination with another key
 ; copied from here https://gist.github.com/randy909/aed699bb2c32d8c31af1
 

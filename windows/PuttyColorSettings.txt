@@ -1,7 +1,6 @@
 Zenburn - A pleasant color scheme for PuTTY
 
 @see http://looselytyped.blogspot.com/2013/02/zenburn-pleasant-color-scheme-for-putty.html
-@see [Boost Library Documentation] (http://www.boost.org/doc/libs/?view=categorized)
 
 Putty RGB colors/options for Zenburn (Putty -> Window -> Colors):
 

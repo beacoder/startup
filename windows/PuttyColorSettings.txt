@@ -2,7 +2,7 @@ Zenburn - A pleasant color scheme for PuTTY
 
 @see http://looselytyped.blogspot.com/2013/02/zenburn-pleasant-color-scheme-for-putty.html
 
-Putty RGB colors/options for Zenburn (Putty -> Window -> Colors):
+Putty colors which go well with Zenburn (Putty -> Window -> Colors):
 
  1 Default Foreground - 255/255/255
  2 Default Background - 51/51/51

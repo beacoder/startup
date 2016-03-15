@@ -42,4 +42,4 @@ alias ge='grep --color=auto -n -E'
 
 # using screen
 alias sc='screen'
-alias scr='screen -r'
+alias scr='screen -d -r'

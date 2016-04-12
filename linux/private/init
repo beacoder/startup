@@ -34,11 +34,11 @@ alias E='emacs'
 # invoke ediff just like vimdiff
 alias ed='ediff'
 
-alias c='clear'
-alias j='jobs'
-alias g='grep --color=auto -n'
-alias gr='grep --color=auto -n -R'
-alias ge='grep --color=auto -n -E'
+alias c 'clear'
+alias j 'jobs'
+alias g  'grep --color=auto -n -E'
+alias gr 'grep --color=auto -n -E -R'
+alias gv 'grep --color=auto -n -E -v'
 
 # using screen
 alias sc='screen'

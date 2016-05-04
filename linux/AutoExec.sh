@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Goagent
-python /home/chm/Goagent/proxy.py &
-
-# Emacs uses Goagent proxy
-http_proxy=http://127.0.0.1:8087 emacs &
-
 # Chrome
 chrome https://app.yinxiang.com/Home.action http://www.51cto.com https://plus.google.com planet.emacsen.org http://news.163.com &
 

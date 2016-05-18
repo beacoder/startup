@@ -1,8 +1,5 @@
 # bash configuration file
 
-# User specific aliases and functions
-#PATH=/usr/local/python2.7.8/bin/:$HOME/percol/bin/:$PATH:$HOME/bin:.
-
 export PS1='$HOSTNAME $PWD !$ '
 export TERM=xterm-color
 

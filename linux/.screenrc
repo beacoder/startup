@@ -35,7 +35,6 @@ hardstatus alwayslastline
 #hardstatus string "%{= kg}[%{G}%H%{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d%{R} %D%{W} %c:%s%{g}]"
 hardstatus string "%{=b}%{b}%-w%{.BW}%10>%n*%t%{-}%+w%< %=%{kG}%C%A %D, %Y-%m-%d"
 
-screen -t node 0
 screen -t epghome 1
 screen -t reglog 2
 screen -t j20ttcn 3
@@ -44,6 +43,7 @@ screen -t lsf 5
 screen -t epgsim 6
 screen -t misc 7
 screen -t prelsv 8
+screen -t node 9
 
 #bind 2 split
 #bind o focus
@@ -60,6 +60,7 @@ bindkey "^[[17~" select 6
 bindkey "^[[18~" select 7
 bindkey "^[[19~" select 8
 bindkey "^[[20~" select 9
-bindkey "^[[21~" select 10
-bindkey "^[[23~" select 11
-bindkey "^[[24~" select 0
+#bindkey "^[[21~" select 10
+#bindkey "^[[23~" select 11
+# save f12 for emacs-hydra
+#bindkey "^[[24~" select 0

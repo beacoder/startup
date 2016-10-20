@@ -13,7 +13,7 @@ source ~/private/function
 export HISTFILE=~/.sh_history
 export HISTSIZE=100000
 export HISTFILESIZE=100000
-export GTAGSLIBPATH=~/my_tag_files
+export GTAGSLIBPATH=~/my_tag_files:$WS_ROOT/framework
 
 # see most used commands in history, use $2 on csh instead of $3.
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"

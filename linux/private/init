@@ -46,6 +46,7 @@ alias ed='ediff'
 alias c='clear'
 alias j='jobs'
 alias g='grep --color=auto -n -E'
+alias gi='grep --color=auto -n -E -i'
 alias gr='grep --color=auto -n -E -R'
 alias gv='grep --color=auto -n -E -v'
 

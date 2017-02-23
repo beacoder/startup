@@ -21,6 +21,9 @@ export GTAGSLIBPATH=~/my_tag_files
 # see most used commands in history, use $2 on csh instead of $3.
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"
 
+# git sync operation.
+alias gts='git pull --rebase && git submodule update --init'
+
 # tell bash to understand emacs commands
 set -o emacs
 

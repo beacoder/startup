@@ -6,7 +6,7 @@
 #unset USERNAME
 #umask 002
 
-PATH=~/private/emacs-24.5/bin:~/private/rtags/bin:~/private/gtags/bin:$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin/:$PATH
+PATH=~/private/emacs-24.5/bin:~/private/ag/bin:~/private/rtags/bin:~/private/gtags/bin:$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin/:$PATH
 
 source ~/private/function
 

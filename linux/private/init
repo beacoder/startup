@@ -56,3 +56,6 @@ alias gv='grep --color=auto -n -E -v'
 # using screen
 alias sc='screen'
 alias scr='screen -d -r'
+
+# git 
+alias gs='git pull --rebase && git submodule update --init'

@@ -8,7 +8,7 @@
 
 PATH=~/private/bin:~/private/emacs-24.5/bin:~/private/ag-2.0.0/bin:~/private/rtags/bin:~/private/gtags-6.5.7/bin:$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin/:$PATH
 
-source ~/private/function
+source ~/private/bin/function
 
 export HISTFILE=~/.sh_history
 export HISTSIZE=100000
@@ -58,4 +58,4 @@ alias sc='screen'
 alias scr='screen -d -r'
 
 # git 
-alias gs='git pull --rebase && git submodule update --init'
+alias gts='git pull --rebase && git submodule update --init'

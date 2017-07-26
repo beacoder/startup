@@ -1,5 +1,6 @@
 #!/bin/ksh
 # this script is used for ksh only, bash don't need it.
+# chmod +x => make it executable.
 
 source ~/private/bin/function
 

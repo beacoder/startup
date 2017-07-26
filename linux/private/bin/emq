@@ -1,6 +1,6 @@
 #!/bin/ksh
 # this script is used for ksh only, bash don't need it.
 
-source ~/private/function
+source ~/private/bin/function
 
 emq $@

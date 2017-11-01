@@ -18,6 +18,16 @@ export HISTFILESIZE=100000
 # "gtags" should be executed at each directory in the GTAGSLIBPATH
 export GTAGSLIBPATH=~/my_tag_files
 
+# Golang environment variables
+export GOPATH=~/workspace/go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
+# $GOPATH/src : where your Go projects / programs are located
+# $GOPATH/pkg : contains every package objects
+# $GOPATH/bin : the compiled binaries home
+
 # see most used commands in history, use $2 on csh instead of $3.
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"
 

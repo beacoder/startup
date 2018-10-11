@@ -19,12 +19,12 @@ export HISTFILESIZE=100000
 export GTAGSLIBPATH=~/my_tag_files
 
 # compile options for PCRE
-setenv PCRE_LIBS "-L~/private/pcre2-10.32/lib -lpcre"
-setenv PCRE_CFLAGS -I~/private/pcre2-10.32/include/pcre
+export PCRE_LIBS="-L~/private/pcre2-10.32/lib -lpcre"
+export PCRE_CFLAGS=-I~/private/pcre2-10.32/include/pcre
 
 # compile options for XZ
-setenv LZMA_LIBS "-L~/private/xz-5.2.4/lib -llzma"
-setenv LZMA_CFLAGS -I~/private/xz-5.2.4/include
+export LZMA_LIBS="-L~/private/xz-5.2.4/lib -llzma"
+export LZMA_CFLAGS=-I~/private/xz-5.2.4/include
 
 # Golang environment variables
 export GOPATH=~/workspace/go

@@ -16,7 +16,7 @@ export HISTFILESIZE=100000
 
 # addtional searche path for gtags tag file
 # "gtags" should be executed at each directory in the GTAGSLIBPATH
-export GTAGSLIBPATH=~/my_tag_files
+export GTAGSLIBPATH=~/my_tag_files:/usr/src/lib
 
 # compile options for PCRE
 export PCRE_LIBS="-L~/private/pcre2-10.32/lib -lpcre"

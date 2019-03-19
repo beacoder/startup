@@ -4,7 +4,9 @@
 
 #export PATH
 #unset USERNAME
-#umask 002
+
+umask 002
+unlimit
 
 PATH=~/private/elasticsearch-6.6.2/bin:~/private/bin:~/private/emacs-26.1/bin:~/private/ag-2.0.0/bin:~/private/gtags-6.5.7/bin: \
     $(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin/:$PATH

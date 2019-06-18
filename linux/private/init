@@ -42,8 +42,10 @@ export PATH=$PATH:$GOROOT/bin
 # see most used commands in history, use $2 on csh instead of $3.
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"
 
-# git sync operation.
+# git operation.
 alias gts='git pull --rebase && git submodule update --init'
+alias gd='git diff'
+alias gp='git push origin HEAD:refs/for/maste'
 
 # tell bash to understand emacs commands
 set -o emacs

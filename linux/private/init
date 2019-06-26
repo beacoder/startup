@@ -45,7 +45,7 @@ alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"
 # git operation.
 alias gts='git pull --rebase && git submodule update --init'
 alias gd='git diff'
-alias gp='git push origin HEAD:refs/for/maste'
+alias gp='git push origin HEAD:refs/for/master/master'
 
 # tell bash to understand emacs commands
 set -o emacs

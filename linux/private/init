@@ -44,6 +44,7 @@ alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"
 
 # git operation.
 alias gts='git pull --rebase && git submodule update --init'
+alias ga='git commit --amend'
 alias gd='git diff'
 alias gp='git push origin HEAD:refs/for/master/master'
 

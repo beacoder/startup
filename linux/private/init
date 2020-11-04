@@ -57,7 +57,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias l='ls -hl'
 alias la='l -a'
-alias le='less'
+alias le='less -R'
 alias tl='tail'
 alias tf='tail -f'
 
@@ -74,10 +74,10 @@ alias ed='ediff'
 
 alias c='clear'
 alias j='jobs'
-alias g='grep --color=auto -n -E'
-alias gi='grep --color=auto -n -E -i'
-alias gr='grep --color=auto -n -E -R'
-alias gv='grep --color=auto -n -E -v'
+alias g='grep --color=always -n -E'
+alias gi='grep --color=always -n -E -i'
+alias gr='grep --color=always -n -E -R'
+alias gv='grep --color=always -n -E -v'
 
 # using screen
 alias sc='screen'

@@ -43,7 +43,7 @@ export PATH=$PATH:$GOROOT/bin
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"
 
 # git operation.
-alias gts='git pull --rebase && git submodule update --init'
+alias gts='git pull --rebase && git submodule update --init --recursive'
 alias ga='git add'
 alias gd='git diff'
 alias gm='git commit --amend'

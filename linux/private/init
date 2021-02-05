@@ -74,10 +74,16 @@ alias ed='ediff'
 
 alias c='clear'
 alias j='jobs'
+
 alias g='grep --color=always -n -E'
 alias gi='grep --color=always -n -E -i'
 alias gr='grep --color=always -n -E -R'
 alias gv='grep --color=always -n -E -v'
+
+alias zg='zgrep --color=always -n -E'
+alias zgi='zgrep --color=always -n -E -i'
+alias zgr='zgrep --color=always -n -E -R'
+alias zgv='zgrep --color=always -n -E -v'
 
 # using screen
 alias sc='screen'

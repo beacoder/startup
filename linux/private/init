@@ -58,6 +58,7 @@ alias mv='mv -i'
 alias l='ls -hl'
 alias la='l -a'
 alias le='less -R'
+alias zle='zless -R'
 alias tl='tail'
 alias tf='tail -f'
 

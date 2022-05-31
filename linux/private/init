@@ -48,7 +48,8 @@ alias ga='git add'
 alias gd='git diff'
 alias gm='git commit --amend'
 alias gt='git st'
-alias gp='git push origin HEAD:refs/for/master/master'
+alias gh='git hist'
+alias gp='git push origin HEAD:refs/for/master'
 
 # tell bash to understand emacs commands
 set -o emacs

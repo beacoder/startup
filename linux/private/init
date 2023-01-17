@@ -29,12 +29,6 @@ export PCRE_CFLAGS=-I~/private/pcre2-10.32/include/pcre
 export LZMA_LIBS="-L~/private/xz-5.2.4/lib -llzma"
 export LZMA_CFLAGS=-I~/private/xz-5.2.4/include
 
-# Golang environment variables
-export GOPATH=~/workspace/go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
-
 # compile emacs with tree-sitter
 export TREE_SITTER_LIBS="-L/home/ehumche/private/tree-sitter/lib -ltree-sitter"
 export TREE_SITTER_CFLAGS=-I/home/ehumche/private/tree-sitter/include

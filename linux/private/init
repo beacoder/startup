@@ -35,9 +35,10 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
-# $GOPATH/src : where your Go projects / programs are located
-# $GOPATH/pkg : contains every package objects
-# $GOPATH/bin : the compiled binaries home
+# compile emacs with tree-sitter
+export TREE_SITTER_LIBS="-L/home/ehumche/private/tree-sitter/lib -ltree-sitter"
+export TREE_SITTER_CFLAGS=-I/home/ehumche/private/tree-sitter/include
+export LD_LIBRARY_PATH=/home/ehumche/private/tree-sitter/lib
 
 # see most used commands in history, use $2 on csh instead of $3.
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"

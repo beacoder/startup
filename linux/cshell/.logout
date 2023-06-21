@@ -1,0 +1,3 @@
+# this file holds commands that you want executed just before your session is terminated
+
+history -S # save history at exit

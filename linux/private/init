@@ -82,6 +82,9 @@ alias zgi='zgrep --color=always -n -E -i'
 alias zgr='zgrep --color=always -n -E -R'
 alias zgv='zgrep --color=always -n -E -v'
 
+alias k9='kill -9 '
+alias psg='ps -ef | grep --color=always -n -E chenhuming | grep --color=always -n -E '
+
 # using screen
 alias sc='screen'
 alias scr='screen -d -r'

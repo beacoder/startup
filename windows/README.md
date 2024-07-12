@@ -1,16 +1,16 @@
-要将 Caps Lock 键映射为 Ctrl 键，可以通过修改注册表来实现。以下是具体步骤：
+# 要将 Caps Lock 键映射为 Ctrl 键，可以通过修改注册表来实现。以下是具体步骤：
 
-打开注册表编辑器：
+## 打开注册表编辑器：
 
 按 Win + R 打开运行窗口，输入 regedit 并按下 Enter 键。
 导航到键盘映射键：
 
-在注册表编辑器中，导航到以下路径：
+## 在注册表编辑器中，导航到以下路径：
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout
 创建或修改 Scancode Map 值：
 
-在 Keyboard Layout 键下，如果没有 Scancode Map 值，需要创建一个。
-右键点击右侧窗口，选择 New（新建） > Binary Value（二进制值），命名为 Scancode Map。
+## 在 Keyboard Layout 键下，如果没有 Scancode Map 值，需要创建一个。
+## 右键点击右侧窗口，选择 New（新建） > Binary Value（二进制值），命名为 Scancode Map。
 设置 Scancode Map 的值：
 
 双击 Scancode Map 值，并输入以下数据：

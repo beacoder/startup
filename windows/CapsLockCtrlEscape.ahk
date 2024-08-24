@@ -1,4 +1,5 @@
 ; Fix right alt key in putty
+; this script only applicable for autohotkey-v2
 
 #IfWinActive ahk_class PuTTY
 RAlt::LAlt

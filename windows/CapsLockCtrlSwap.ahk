@@ -5,5 +5,5 @@
 RAlt::LAlt
 #IfWinActive
 
-; Map Caps Lock to Ctrl
+; Map CapsLock to Ctrl
 $CapsLock::Ctrl

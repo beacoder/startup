@@ -46,6 +46,7 @@ alias gmn='git commit --amend --no-edit'
 alias gt='git st'
 alias gh='git hist'
 alias gp='git push origin HEAD:refs/for/master'
+alias gs='git show'
 
 # tell bash to understand emacs commands
 set -o emacs

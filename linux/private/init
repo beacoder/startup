@@ -12,6 +12,9 @@ PATH=~/private/elasticsearch-6.6.2/bin:~/private/bin:~/private/emacs-26.1/bin:~/
     $(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin/:~/private/unrar/bin:$PATH
 
 source ~/private/bin/function
+source ~/workspace/ai/rag_env/bin/activate
+
+cd ~/workspace/ai
 
 export HISTFILE=~/.sh_history
 export HISTSIZE=100000

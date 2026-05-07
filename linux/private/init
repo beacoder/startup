@@ -39,9 +39,16 @@ export LD_LIBRARY_PATH=/home/ehumche/private/tree-sitter/lib
 
 # http_proxy settings
 export NODE_USE_ENV_PROXY=1
+
+# some apps rely on lowercase
 export http_proxy=http://127.0.0.1:1080
 export https_proxy=http://127.0.0.1:1080
 export no_proxy=localhost,127.0.0.1
+
+# some apps rely on uppercase
+export HTTPS_PROXY=http://127.0.0.1:1080
+export HTTP_PROXY=http://127.0.0.1:1080
+export NO_PROXY=localhost,127.0.0.1
 
 # see most used commands in history, use $2 on csh instead of $3.
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"

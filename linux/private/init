@@ -53,7 +53,7 @@ export NO_PROXY=localhost,127.0.0.1
 # telegram_bot settings
 export TELEGRAM_BOT_TOKEN="XXXXXXXXX"
 export AUTHORIZED_USER_ID=123456789
-export PROXY_URL="http://127.0.0.1:1080"
+export PROXY_URL=http://127.0.0.1:1080
 
 # see most used commands in history, use $2 on csh instead of $3.
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"

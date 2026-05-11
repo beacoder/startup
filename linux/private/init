@@ -59,6 +59,10 @@ export PROXY_URL=http://127.0.0.1:1080
 export WHISPER_CPP_DIR=~/Downloads/whisper.cpp
 export WHISPER_MODEL=~/Downloads/whisper.cpp/models/ggml-base.bin
 
+# piper for text-to-speech
+export PIPER_DIR=~/workspace/telegram_env_python3.9/bin
+export PIPER_MODEL=~/workspace/piper_models/zh_CN-huayan-medium.onnx
+
 # see most used commands in history, use $2 on csh instead of $3.
 alias statis="history | awk '{print $3}' | sort | uniq -c | sort -rn | head"
 
